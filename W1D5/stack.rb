@@ -6,6 +6,7 @@ class Stack
 
   def push(el)
     @stack << el
+    el
   end
 
   def pop
@@ -14,6 +15,6 @@ class Stack
 
   def peek
     return [] if @stack.length == 0
-    @stack[0]
+    @stack[-1]
   end
 end

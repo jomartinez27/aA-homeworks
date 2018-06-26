@@ -40,7 +40,7 @@ class Board
     end
 
     render
-    next_turn[cup_idx]
+    next_turn(cup_idx)
   end
 
   def next_turn(ending_cup_idx)
@@ -50,7 +50,7 @@ class Board
     elsif @cups[ending_cup_idx].count == 1
       :switch
     else
-    ending_cup_idx
+      ending_cup_idx
     end
   end
 

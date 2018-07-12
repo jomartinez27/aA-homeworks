@@ -1,0 +1,4 @@
+Welcome to 99cats.com!
+
+You have successfully signed up.
+Your username is: <%= @user.username %>
